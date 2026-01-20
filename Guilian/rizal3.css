@@ -1,17 +1,17 @@
-/* RESET */
-* {
+
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
     background:rgb(102, 64, 31);
     font-family: 'Playfair Display', serif;
 }
 
-/* NAVBAR */
+
 .navbar {
     background-color: rgba(62, 31, 6, 0.996);
     height: 90px;
@@ -44,7 +44,7 @@ nav a:hover {
 
 
 
-/* MOVIE DETAILS SECTION */
+
 .movie-details {
     display: flex;
     align-items: center;
@@ -52,13 +52,13 @@ nav a:hover {
     gap: 120px;
 }
 
-/* POSTER */
+
 .poster img {
     width: 340px;
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
 }
 
-/* INFO */
+
 .info {
     max-width: 650px;
 }
@@ -77,4 +77,5 @@ nav a:hover {
     line-height: 1.8;
     color: var(--text);
 }
+
 
