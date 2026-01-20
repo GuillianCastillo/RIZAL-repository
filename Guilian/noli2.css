@@ -1,0 +1,96 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background:rgb(102, 64, 31);
+     font-family: 'Playfair Display', serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(62, 31, 6, 0.996);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+nav {
+    margin-right: auto;
+}
+
+nav a {
+    margin-left: 42px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    transition: opacity 0.3s;
+}
+nav a:hover {
+    color: #ffffff;
+}
+
+.logo img {
+    height: 55px;
+}
+
+
+
+
+/* MOVIE DETAILS SECTION */
+.movie-details {
+    display: flex;
+    align-items: center;
+    padding: 80px 120px;
+    gap: 120px;
+}
+
+/* POSTER */
+.poster img {
+    width: 340px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+}
+
+/* INFO */
+.info {
+    max-width: 650px;
+}
+
+.info h1 {
+   font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    color: var(--text);
+}
+
+.info p {
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.8;
+    color: var(--text);
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 14px 40px;
+    background-color: var(--navfut);
+    color: var(--text);
+    text-decoration: none;
+    letter-spacing: 2px;
+   font-family: 'Guardians', sans-serif;
+    font-size: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--navfut);
+}

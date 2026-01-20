@@ -1,0 +1,79 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background:rgb(102, 64, 31);
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(62, 31, 6, 0.996);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+nav {
+    margin-right: auto;
+}
+
+nav a {
+    margin-left: 42px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    transition: opacity 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.logo img {
+    height: 55px;
+}
+
+/* MAIN CONTAINER */
+.characters {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 520px; /* SAME height for all cards */
+}
+
+.card img {
+    max-height: 420px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.char-btn {
+    margin-top: 40px; /* 🔥 pushes button to bottom */
+   background-color: rgba(62, 31, 6, 0.996);
+font-family: 'Playfair Display', serif;
+    border: none;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+.card button:hover {
+    background-color: rgba(176, 105, 47, 0.996);
+}
+
+
+
